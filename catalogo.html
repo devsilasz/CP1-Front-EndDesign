@@ -43,13 +43,14 @@
     </header>
 
     <section class="py-5">
-        <div class=" container row mx-auto g-4 justify-content-center">
-            <div class="px-4 px-lg-5 mt-5 d-flex flex-column flex-lg-row">
+        <div class=" container row mx-auto g-4 ">
+            <div class="px-4 px-lg-5 mt-5 d-flex flex-column flex-lg-row align-items-lg-start align-items-sm-center ">
                 
                 
                 <div class="col-md-3 filtro">
                 <h4>Filtros</h4>   
 
+                    <div class="d-flex-sm">
                     <!-- Filtro por preço -->
                     <div class="filter-section mb-4 filtro__preco">
                         <h5>Preço</h5>
@@ -74,11 +75,11 @@
                     <!-- Filtro por tipo de produto -->
                     <div class="filter-section mb-4 filtro-tipo">
                         <h5>Tipo de Produto</h5>
-                        <div>
+                        <div class="d-flex gap-1">
                             <input type="checkbox" id="tipo1" name="tipo" value="roupa-f">
                             <label for="tipo1">Roupas femininas e Acessórios</label>
                         </div>
-                        <div>
+                        <div class="d-flex gap-1">
                             <input type="checkbox" id="tipo2" name="tipo" value="roupa-m">
                             <label for="tipo2">Roupas Masculinas e Acessórios</label>
                         </div>
@@ -87,7 +88,7 @@
                             <label for="tipo3">Gadgets</label>
                         </div>
                         <div>
-                            <input type="checkbox" id="tipo4" name="tipo" value="moveis">
+                            <input type="checkbox" id="tipo4" name="tipo" value="movel">
                             <label for="tipo3">Móveis</label>
                         </div>
                         <div>
@@ -95,9 +96,10 @@
                             <label for="tipo3">Beleza</label>
                         </div>
                     </div>
+                    </div>
 
                     <!-- Botão de Aplicar Filtros -->
-                    <button class="btn btn-primary mb-5 filtro-botao">Aplicar Filtros</button>
+                    <button class="btn btn-primary mb-5 filtro-btn">Aplicar Filtros</button>
                 </div>
 
                 <!-- Catálogo de Produtos -->

@@ -1,11 +1,11 @@
 .filtro {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 15px;
 }
 
 .filtro-btn {
-    width: 25rem;
+    width: 8rem;
 }
 
 .img__tamanho {
@@ -16,31 +16,34 @@
 
 .header {
     background-color: rgb(5, 76, 5);
+
 }
+
+
 
 @media (max-width: 768px) {
 
-    .filtro {
-        display: flex;
-        flex-direction: row;
+    .filtro-btn {
+        width: 8rem;
+        height: 5rem;
     }
 
-.img__tamanho {
-    height: 11.5rem;
-    width: auto;
-    object-fit: cover; 
+    .img__tamanho {
+        height: 11.5rem;
+        width: auto;
+        object-fit: cover; 
     }
 }
   
 
 @media (max-width: 480px) {
 
-    .filtro {
-        display: flex;
-        flex-direction: row;
+    .filtro-btn {
+        width: 8rem;
+        height: 5rem;
     }
 
-.img__tamanho {
+    .img__tamanho {
     height: 11.5rem;
     width: auto;
     object-fit: cover; 
