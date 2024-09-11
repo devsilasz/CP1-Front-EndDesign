@@ -1,4 +1,4 @@
-# E-commerce Sustentável - README
+# E-commerce Sustentável
 
 ## Descrição
 
