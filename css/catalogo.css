@@ -1,0 +1,22 @@
+.img__tamanho {
+    height: 11.5rem;
+}
+
+.header {
+    background-color: rgb(5, 76, 5);
+}
+
+@media (max-width: 768px) {
+
+.img__tamanho {
+    height: 11.5rem;
+    }
+}
+  
+
+@media (max-width: 480px) {
+
+.img__tamanho {
+    height: 11.5rem;
+    }
+}
