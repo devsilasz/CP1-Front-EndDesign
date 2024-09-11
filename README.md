@@ -21,4 +21,12 @@ Criar uma interface **responsiva** com **HTML**, **CSS**, **Grid Layout** e **Bo
 - HTML, CSS, Grid Layout
 - Bootstrap (componentes e responsividade)
 
+## Grupo:
+
+- Matheus Dantas Carvalho - RM558804
+- Silas Alves dos Santos - RM555020
+- Camila Mie Takara - RM555418
+- Marco Antonio Andrade Gonçalves - RM556818
+- Eliseu Fernando Mendes dos Santos - RM98493
+
 # Link GitHub Pages:
