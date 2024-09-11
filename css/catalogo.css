@@ -1,5 +1,17 @@
+.filtro {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.filtro-btn {
+    width: 25rem;
+}
+
 .img__tamanho {
     height: 11.5rem;
+    width: auto;
+    object-fit: cover; 
 }
 
 .header {
@@ -8,15 +20,29 @@
 
 @media (max-width: 768px) {
 
+    .filtro {
+        display: flex;
+        flex-direction: row;
+    }
+
 .img__tamanho {
     height: 11.5rem;
+    width: auto;
+    object-fit: cover; 
     }
 }
   
 
 @media (max-width: 480px) {
 
+    .filtro {
+        display: flex;
+        flex-direction: row;
+    }
+
 .img__tamanho {
     height: 11.5rem;
+    width: auto;
+    object-fit: cover; 
     }
 }

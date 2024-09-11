@@ -44,13 +44,14 @@
 
     <section class="py-5">
         <div class=" container row mx-auto g-4 justify-content-center">
-            <div class="px-4 px-lg-5 mt-5 d-flex">
-
-                <div class="col-md-3">
-                    <h4>Filtros</h4>
+            <div class="px-4 px-lg-5 mt-5 d-flex flex-column flex-lg-row">
+                
+                
+                <div class="col-md-3 filtro">
+                <h4>Filtros</h4>   
 
                     <!-- Filtro por preço -->
-                    <div class="filter-section mb-4">
+                    <div class="filter-section mb-4 filtro__preco">
                         <h5>Preço</h5>
                         <div>
                             <input type="radio" name="price" id="price1" value="0-50">
@@ -71,7 +72,7 @@
                     </div>
 
                     <!-- Filtro por tipo de produto -->
-                    <div class="filter-section mb-4">
+                    <div class="filter-section mb-4 filtro-tipo">
                         <h5>Tipo de Produto</h5>
                         <div>
                             <input type="checkbox" id="tipo1" name="tipo" value="roupa-f">
@@ -96,7 +97,7 @@
                     </div>
 
                     <!-- Botão de Aplicar Filtros -->
-                    <button class="btn btn-primary">Aplicar Filtros</button>
+                    <button class="btn btn-primary mb-5 filtro-botao">Aplicar Filtros</button>
                 </div>
 
                 <!-- Catálogo de Produtos -->
