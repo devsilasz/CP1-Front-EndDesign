@@ -30,3 +30,5 @@ Criar uma interface **responsiva** com **HTML**, **CSS**, **Grid Layout** e **Bo
 - Eliseu Fernando Mendes dos Santos - RM98493
 
 # Link GitHub Pages:
+
+https://devsilasz.github.io/CP1-Front-EndDesign/index.html
